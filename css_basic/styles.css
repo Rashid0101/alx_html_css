@@ -1,7 +1,12 @@
+html {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
   background-color: beige;
+  min-height: 100%;
 }
 main {
   display: flex;
@@ -11,15 +16,19 @@ main {
 
 article {
   flex: 2;
-  overflow: auto;
+  overflow-y: auto;
   color: brown;
 }
 
 aside {
   flex: 1;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 h1 {
-  color: blueviolet;
+  background-color: blue;
+}
+
+footer {
+  margin-top: auto;
 }
