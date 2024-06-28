@@ -104,9 +104,11 @@ NAVE BAR
 
 .techers {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 8.7rem;
   margin-bottom: 9.8rem;
+  margin-left: 22rem;
+  margin-right: 22rem;
 }
 
 .techers img {
@@ -200,6 +202,8 @@ NAVE BAR
 .main-img {
   width: 270px;
   z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .vide-icone {
