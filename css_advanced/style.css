@@ -41,7 +41,6 @@ NAVE BAR
 .main-section {
   background-image: url(/images/Object.png);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   height: 110vh;

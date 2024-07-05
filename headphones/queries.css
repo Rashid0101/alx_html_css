@@ -1,0 +1,9 @@
+/* *********************** */
+/* BELOW  992PX*/
+/* *********************** */
+
+@media (max-width: 62em) {
+  .more-info-containers {
+    flex-wrap: wrap;
+  }
+}

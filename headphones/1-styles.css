@@ -1,0 +1,295 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  padding-top: 2.8rem;
+}
+
+.nav img {
+  width: 161px;
+  height: 32px;
+}
+
+.nav-ul {
+  display: flex;
+  column-gap: 4.1rem;
+}
+
+.nav-ul a {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-ul a:hover {
+  color: #ff6565;
+}
+
+.section-hero {
+  text-align: center;
+  background-image: url(/headphones/images/headphones_hero_1.jpg);
+  height: 85vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.section-hero h1 {
+  color: #fff;
+  font-size: 3.7rem;
+  font-weight: 700;
+  font-family: "Source Sans ProBold";
+  padding-top: 37.2rem;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.hero-text + a:link,
+.hero-text + a:visited {
+  display: inline-block;
+  background-color: #ff6565;
+  padding: 1.6rem 4rem;
+  border-radius: 2.2rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 6.5rem;
+  box-shadow: 0 3px 18px 4px rgb(37, 36, 36);
+}
+
+.hero-text + a:hover,
+.hero-text + a:active {
+}
+
+.hero-artical {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 15rem;
+}
+
+.more-info {
+  text-align: center;
+}
+
+.more-info h2 {
+  color: #071629;
+  font-family: "Source Sans ProBold";
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin: 10.1rem 0 4rem 0;
+}
+
+.more-info > p {
+  color: #071629;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 9.7rem;
+}
+
+.more-info-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 5.8rem;
+  margin-bottom: 11rem;
+}
+
+.more-info-containers-1 img {
+  width: 94.2px;
+}
+
+.more-info-containers-2 img {
+  width: 67.588px;
+}
+
+.more-info-containers-3 img {
+  width: 51.66px;
+}
+
+.more-info-containers- img {
+  width: 61.431px;
+}
+
+.more-info-containers h3 {
+  color: #071629;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+  margin: 2.5rem 0 1.3rem 0;
+}
+
+.more-info-containers p {
+  color: #071629;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+/* ********** 
+results
+/* ********** */
+
+.results {
+  text-align: center;
+  width: 100%;
+  height: 65rem;
+  background-color: #071629;
+
+  background-image: url(/headphones/images/headphones_hero_2.jpg);
+  background-repeat: no-repeat;
+}
+
+.results h2 {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding: 14.1rem 0 4rem 0;
+}
+
+.results p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  padding-bottom: 12.6rem;
+}
+
+.results-cube {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.results-cube-1 {
+  position: relative;
+  z-index: 20;
+}
+
+.results-cube h4 {
+  color: #fff;
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 15;
+}
+
+.results-cube p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  position: relative;
+  z-index: 10;
+}
+
+.results-cube img {
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: -70px;
+  left: -37px;
+  z-index: 1;
+}
+
+/* ********** 
+Contact-us
+/* ********** */
+
+.Contact-us {
+  text-align: center;
+}
+
+.Contact-us-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-us h3 {
+  color: #071629;
+  font-size: 3.2rem;
+  font-weight: 600;
+  font-family: "Source Sans ProBold-22";
+  margin-top: 11rem;
+}
+
+.Contact-us-flex input {
+  width: 335px;
+  border: none;
+  border-bottom: 1px solid #07162938;
+  margin-bottom: 4.5rem;
+  padding: 10px;
+  color: #071629;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.Contact-us-flex button {
+  background-color: #ff6565;
+  padding: 1.4rem 3rem;
+  border-radius: 2.2rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 13rem;
+}
+
+/* **************** 
+ FOOTER
+ **************** */
+.footer-continer {
+}
+
+.footer {
+  background-color: #071629;
+  height: 15.5rem;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10rem;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.footer img {
+  width: 167.016px;
+  height: 29.461px;
+}
+
+.icone-continer {
+}
+
+.icone-continer i {
+  color: #fff;
+  font-size: 3rem;
+  margin: 1.2rem;
+  border-radius: 50%;
+}
+
+.footer-continer p {
+  color: rgba(159, 171, 187, 0.5);
+  background-color: #071629;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 3.9rem;
+}
